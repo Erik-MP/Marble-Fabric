@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="./images/Marble Fabric Icon.jpg">
+    <link rel="stylesheet" href="./css/indexcss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+</head>
+
+<body>
+    <header>
+        <div class="descuentos">
+            <a href="">Descuentos</a>
+        </div>
+
+        <nav>
+            <div class="logo">
+                <a href=""><img src="./images/Marble Fabric Medio.png" alt="Imagen Provisional" width="200px"
+                        height="60px"></a>
+            </div>
+            <div class="navegador">
+                <a href="">Productos</a>
+                <a href="">Ofertas</a>
+                <a href="">Secciones</a>
+                <a href="">Acerca de Nosotros</a>
+                <a href="">FAQ</a>
+            </div>
+            <div class="botones">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512">
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512">
+                        <path
+                            d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512">
+                        <path
+                            d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                    </svg></a>
+            </div>
+        </nav>
+    </header>
+
+    <article>
+        <div class="portada">
+            <img src="./images/Marble Fabric Largo.jpg" alt="Imagen provisional" width="100%" height="100%">
+            <div class="portadatexto">
+                <mark>
+                    <h1>Titulo de Prueba</h1>
+                    <p>Texto de Prueba</p>
+                </mark>
+            </div>
+        </div>
+
+        <div class="seleccion">
+            <span id="boton" class="selecprediseniado" onclick="prediseniado();">Prediseñado</span>
+            <span id="boton" class="selecdiseniar" onclick="diseniar();">Diseñar</span>
+        </div>
+
+        <script>
+            function prediseniado() {
+                document.getElementById('areaproductos').style.display = "flex";
+                document.getElementById('areadisenio').style.display = "none";
+            }
+            function diseniar() {
+                document.getElementById('areaproductos').style.display = "none";
+                document.getElementById('areadisenio').style.display = "block";
+            }
+        </script>
+
+        <div class="contenedor">
+            <div id="areaproductos">
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-blanca.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-gris.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-negra.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-blanca.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-gris.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-negra.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-blanca.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-gris.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-negra.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-blanca.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-gris.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <div class="producto">
+                    <a href=""><img src="./images/camiseta-negra.png" alt="Imagen provisional" width="250px"
+                            height="300px"></a>
+                    <p class="prodtitulo">Titulo de Prueba</p>
+                    <p class="prodprecio">Precio de Prueba</p>
+                </div>
+                <br>
+                <div class="botpagcont">
+                    <a href="" class="botpagprodlink">
+                        <div class="botpagprod">
+                            Ver todos los productos
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="areadisenio">
+                <h1 class="titulodisenio">Diseña tu propia camiseta</h1>
+                <div class="camisetadisenio">
+                    <img src="./images/camiseta-negra.png" alt="Imagen provisional" width="350px" height="400px">
+                </div>
+                <div class="opcionesdiseniocont">
+                    <div class="diseniocolores">
+                        <p>Color:</p>
+                        <svg width="22px" heigth="21px">
+                            <circle cx="11" cy="20" r="10" fill="white" stroke="black" stroke-width="1px"></circle>
+                        </svg>
+                        <svg width="22px" heigth="21px">
+                            <circle cx="11" cy="20" r="10" fill="gray" stroke="black" stroke-width="1px"></circle>
+                        </svg>
+                        <svg width="22px" heigth="21px">
+                            <circle cx="11" cy="20" r="10" fill="black" stroke="black" stroke-width="1px"></circle>
+                        </svg>
+                        <svg width="22px" heigth="21px">
+                            <circle cx="11" cy="20" r="10" fill="rgb(159, 14, 4)" stroke="black" stroke-width="1px">
+                            </circle>
+                        </svg>
+                        <svg width="22px" heigth="21px">
+                            <circle cx="11" cy="20" r="10" fill="rgb(0, 81, 149)" stroke="black" stroke-width="1px">
+                            </circle>
+                        </svg>
+                        <svg width="22px" heigth="21px">
+                            <circle cx="11" cy="20" r="10" fill="green" stroke="black" stroke-width="1px"></circle>
+                        </svg>
+                    </div>
+                    <div class="diseniotexto">
+                        <textarea name="textocamiseta" placeholder="Introduce tu texto" id="" cols="30"
+                            rows="3"></textarea>
+                    </div>
+                    <div class="disenioimagen">
+                        <p>Introduce la imagen que quieras poner</p>
+                        <input type="file">
+                    </div>
+                    <div class="diseniotamanio">
+                        <div class="talla">
+                            XS
+                        </div>
+                        <div class="talla">
+                            S
+                        </div>
+                        <div class="talla">
+                            M
+                        </div>
+                        <div class="talla">
+                            L
+                        </div>
+                        <div class="talla">
+                            XL
+                        </div>
+                        <div class="talla">
+                            XXL
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="secciones">
+            <h1><mark>SECCIONES</mark></h1>
+            <div class="seccionescont">
+                <div class="mccont">
+                    <a href="">
+                        <div class="mangacorta">
+                            <p>Manga corta</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="mlcont">
+                    <a href="">
+                        <div class="mangalarga">
+                            <p>Manga larga</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="scont">
+                    <a href="">
+                        <div class="sudaderas">
+                            <p>Sudaderas</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="pcont">
+                    <a href="">
+                        <div class="polos">
+                            <p style="z-index: 1;">Polos</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="dcont">
+                    <a href="">
+                        <div class="deporte">
+                            <p>Deporte</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="ccont">
+                    <a href="">
+                        <div class="chaquetas">
+                            <p>Chaquetas</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="bstitulo"><mark>BEST SELLERS</mark></h1>
+        <div class="bs">
+            <div class="flechas">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                    <path
+                        d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z" />
+                </svg>
+            </div>
+            <div class="bsprod">
+                <a href="">
+                    <img src="./images/imagen_test.png" alt="Imagen provisional" width="250px" height="200px">
+                    <p>Titulo de Prueba</p>
+                    <p>Precio de Prueba</p>
+                </a>
+            </div>
+            <div class="bsprod">
+                <a href="">
+                    <img src="./images/imagen_test.png" alt="Imagen provisional" width="250px" height="200px">
+                    <p>Titulo de Prueba</p>
+                    <p>Precio de Prueba</p>
+                </a>
+            </div>
+            <div class="flechas">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                    <path
+                        d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z" />
+                </svg>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="redes">
+            <h1 style="margin-bottom: 20px">REDES SOCIALES</h1>
+            <div class="red">
+                <a href=""><img src="./images/facebook-logo.png" alt="Imagen provisional" width="40px"
+                        height="40px"></a>
+            </div>
+            <div class="red">
+                <a href=""> <img src="./images/twitter-logo.png" alt="Imagen provisional" width="40px"
+                        height="40px"></a>
+            </div>
+            <div class="red">
+                <a href=""><img src="./images/instagram-logo.png" alt="Imagen provisional" width="40px"
+                        height="40px"></a>
+            </div>
+        </div>
+        <div class="attcliente">
+            <h1 style="margin-bottom: 40px">ATT CLIENTE</h1>
+            <a href="">Ayuda</a><br><br>
+            <a href="">Contactanos</a><br><br>
+            <a href="">+34 xxx xx xx xx</a><br><br>
+        </div>
+        <div class="newsletter">
+            <h1 style="margin-bottom: 40px">NEWSLETTER</h1>
+            <form method="get">
+                <input type="email" placeholder="Email" size="27">
+            </form>
+            <button type="submit">Enviar</button>
+        </div>
+    </footer>
+</body>
+
+</html>
